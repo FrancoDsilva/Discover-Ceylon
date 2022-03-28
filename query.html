@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="logo" href="logo.png">
+  <title>Query | DiscoverCeylon</title>
+
+  <!--Link for the css file-->
+  <link rel="stylesheet" href="Style sheet/styleQuery.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+  <!--header section starts -->
+  <header>
+    <a href="Presentation Page.html"><img src="photos/logo.png" width="100px" height="80px"></a>
+
+    <!--navigation bar-->
+    <div class="nav" id="navId">
+      <a href="home.html">Home</a>
+      <a href="Gallery.html">Gallery</a>
+      <a href="Destiantion.html">Destination</a>
+      <a href="shop.html">Shop</a>
+      <a href="sitemap.html">Site Map</a>
+      <a href="Quiz.html">Quiz</a>
+      <a href="About Us.html">About Us</a>
+      <a href="query.html">Query</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </header>
+  <!--header section ends -->
+
+  <!--query section starts -->
+  <form form action="mailto:shafy.20200705@iit.ac.lk" method="post" enctype="text/plain" name="feedback" class="query" >
+<div id="formId">
+    <label for="name">Name :</label>
+    <input type="text" placeholder="Enter your name here" id="name">
+
+    <label for="email">Email Address :</label>
+    <input type="text" placeholder="Enter your email here" id="email">
+
+    <label for="subject">Subject :<br></label>
+    <div class="radioClass">
+      <input type="radio" value="Delivery" name="subject">Delivery<br>
+      <input type="radio" value="Product" name="subject">Product<br>
+      <input type="radio" value="Price" name="subject">Price<br>
+      <input type="radio" value="Quality" name="subject">Quality<br>
+      <input type="radio" value="Login Issues" name="subject">Login Issues<br><br>
+    </div>
+
+    <label for="details"><b>Details:</b></label>
+    <textarea rows="5" cols="30" name="details" placeholder="Enter the details here"></textarea>
+    <input type="button" id="entry" onclick="displayDetails()" value="View Query" />
+  </div>
+  
+  
+
+  <table id="display">
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Subject</th>
+      <th>Details</th>
+    </tr>
+  
+  </table>
+  
+  <button class="submit" id="submit">Send </button>
+  <button type="button" id="reset" onclick="show()"  class="clear">Edit</button>
+</form>
+  <!--query section ends -->
+
+  <!--footer section starts -->
+  <footer>
+    <div class="content">
+      <section class="linkNav">
+        <a href="home.html">Home</a><br>
+        <a href="Gallery.html">Gallery</a><br>
+        <a href="Destiantion.html">Destination</a><br>
+        <a href="shop.html">Shop</a><br>
+        <a href="sitemap.html">Site Map</a><br>
+        <a href="Quiz.html">Quiz</a><br>
+        <a href="About Us.html">About Us</a>
+        <a href="query.html">Query</a>
+      </section>
+
+      <section class="logoClass">
+        <div class="logo">
+          <a href="Presentation Page.html"><img src="photos/logo orginal.png" width="250px" height="250px"></a><br>
+        </div>
+        <div class="socialIcon">
+          <a style="padding-left: 30px;" href="https://www.youtube.com/"><img src="photos/icons8-youtube-500.png" width="35px"
+              height="35px" alt="youtube"></a>
+          <a style="padding-left: 30px;" href="https://www.facebook.com/"><img src="photos/fblogo.png" width="35px"
+              height="35px" alt="youtube"></a>
+          <a style="padding-left: 30px;" href="https://www.instagram.com/"><img src="photos/icons8-instagram-500.png"
+              width="35px" height="35px" alt="youtube"></a>
+
+        </div>
+      </section>
+
+      <section class="subscribe">
+        <p class="stay">STAY UPDATED</p>
+
+        <form action="">
+          <input type="text" placeholder="Enter somthing" id="" style="font-size: 20px;">
+          <button class="btnSubs" onclick="display()">subscribe</button>
+        </form>
+      </section>
+
+    </div>
+    <p class="copyright"><b>@2021 Copyright : Discover Ceylon</b></p>
+  </footer>
+  <a style="text-decoration: none; color: #fff;font-size: 15px;" href="Page editor/Page Editor(aqeel).html">Page Editor : Mohamed Aqeel</a>
+  <!--footer section ends -->
+
+  <!--back to top -->
+  <a class="gotopbtn" href="#"> <i >&uarr;</i> </a>
+
+  <!--Link for the javascript file-->
+  <script src="script JS/scriptQuery.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("gbg5.jpg");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#svgJS g:hover polyline,
+#svgJS g:hover line{
+	fill:none;
+	stroke-width:2;
+	stroke:black;
+}
+#svgJS g:hover g text,
+#svgJS g:hover text{
+	font-weight:bold;
+}
+#svgJS g:hover polygon,
+#svgJS g:hover text,
+#svgJS g:focus polygon,
+#svgJS g:focus rect{
+	fill:hsla(24, 20%, 50%, .3);
+	stroke:black;
+	stroke-width:2;
+}

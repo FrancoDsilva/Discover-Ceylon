@@ -1,0 +1,279 @@
+<!doctype html>
+    <html lang="en">
+	    <head>
+			<link rel="stylesheet" type="text/css" href="Style sheet/QuizCSS.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		    <meta charset="UTF-8">
+			<link rel="icon" type="logo" href="logo.png">
+ 			<title>Quiz | DiscoverCeylon</title>
+		</head>
+		
+		<body>
+			 
+			<header>
+				<a href="Presentation Page.html"><img src="assets/logo.png" width="100px" height="80px" ></a>
+		
+			<!--navigation bar-->
+			<div class="nav" id="navId">
+			  <a href="home.html">Home</a>
+			  <a href="Gallery.html">Gallery</a>
+			  <a href="Destiantion.html">Destination</a>
+			  <a href="shop.html">Shop</a>
+			  <a href="sitemap.html">Site Map</a>
+			  <a href="Quiz.html">Quiz</a>
+			  <a href="About Us.html">About Us</a>
+			  <a href="query.html">Query</a>
+			  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			  </a>
+			  
+			</div>
+		  </header>
+		
+		    
+			
+		    <form name="quizForm">
+			
+			
+			<h1> Let's see how well you know Sri Lanka!</h1>
+			<p> Scoring full marks will give you a discount of 10% when purchasing any of our 
+			merchandise. Take a screeshot of your score sheet and present to us!</p>
+			<p> You will get 1 minute to answer 10 questions.</p>
+			
+			<div id="quiz">
+			    <button onclick="start()">Start Quiz</button>
+		        <div>
+				    <p>1.What is the largest city and financial centre of Sri Lanka?</p>
+					<p><input type="radio" name="question1" id="Galle" value="Galle">
+					<label for="Galle">a) Galle </label></p>
+					<p><input type="radio" name="question1" id="Negombo" value="Negombo">
+					<label for="Negombo">b) Negombo </label></p>
+					<p><input type="radio" name="question1" id="Colombo" value="Colombo">
+					<label for="Colombo">c) Colombo </label></p>
+					<p><input type="radio" name="question1" id="Jaffna" value="Jaffna">
+					<label for="Jaffna">d) Jaffna </label></p>
+				</div><br>
+				
+				<div>
+				    <p>2.Sigiriya is also known as,</p>
+					<p><input type="radio" name="question2" id="TheFortressInTheSky" value="TheFortressInTheSky">
+					<label for="TheFortressInTheSky">a) The Fortress In The Sky </label></p>
+					<p><input type="radio" name="question2" id="TheBigRock" value="TheBigRock">
+					<label for="TheBigRock">b) The Big Rock </label></p>
+					<p><input type="radio" name="question2" id="ForestCastle" value="ForestCastle">
+					<label for="ForestCastle">c) ForestCastle </label></p>
+					<p><input type="radio" name="question2" id="LightCastle" value="LightCastle">
+					<label for="LightCastle">d) LightCastle </label></p>
+				</div><br>
+				
+				<div>
+				    <p>3.What shape is Sri Lanka?</p>
+					<p><input type="radio" name="question3" id="Orange" value="Orange">
+					<label for="Orange">a) Orange </label></p>
+					<p><input type="radio" name="question3" id="Pearl" value="Pearl">
+					<label for="Pearl">b) Pearl </label></p>
+					<p><input type="radio" name="question3" id="Apple" value="Apple">
+					<label for="Apple">c) Apple </label></p>
+					<p><input type="radio" name="question3" id="Tree" value="Tree">
+					<label for="Apple">d) Apple </label></p>
+				</div><br>
+				
+				<div>
+				    <p>4. What is the longest River in Sri Lanka?</p>
+					<p><input type="radio" name="question4" id="MalwathuRiver" value="MalwathuRiver">
+					<label for="MalwathuRiver">a) Malwathu River </label></p>
+					<p><input type="radio" name="question4" id="MahaweliRiver" value="MahaweliRiver">
+					<label for="MahaweliRiver">b) Mahaweli River</label></p>
+					<p><input type="radio" name="question4" id="WalaweRiver" value="WalaweRiver">
+					<label for="WalaweRiver">c) Walawe River </label></p>
+					<p><input type="radio" name="question4" id="NilwalaRiver" value="NilwalaRiver">
+					<label for="NilwalaRiver">d) Nilwala River </label></p>
+				</div><br>
+				
+				<div>
+				    <p>5.What is the tallest waterfall in Sri Lanka?</p>
+					<p><input type="radio" name="question5" id="BambarakandaFalls" value="BambarakandaFalls">
+					<label for="BambarakandaFalls">a) Bambarakanda Falls </label></p>
+					<p><input type="radio" name="question5" id="DevonFalls" value="DevonFalls">
+					<label for="DevonFalls">b) Devon Falls </label></p>
+					<p><input type="radio" name="question5" id="LaxapanaFalls" value="LaxapanaFalls">
+					<label for="LaxapanaFalls">c) Laxapana Falls </label></p>
+					<p><input type="radio" name="question5" id="RambodaFalls" value="RambodaFalls">
+					<label for="RambodaFalls">d) Ramboda Falls </label></p>
+				</div><br>
+				
+				
+				<div>
+				    <p>6.How many provinces are there in Sri Lanka?</p>
+					<p><input type="radio" name="question6" id="12" value="12">
+					<label for="12">a) 12 </label></p>
+					<p><input type="radio" name="question6" id="3" value="3">
+					<label for="3">b) 3 </label></p>
+					<p><input type="radio" name="question6" id="8" value="8">
+					<label for="8">c) 8 </label></p>
+					<p><input type="radio" name="question6" id="9" value="9">
+					<label for="9">d) 9 </label></p>
+				</div><br>
+				
+				<div>
+				    <p>7.What national park has the world's highest concentration of leopards per square kilo meter?</p>
+					<p><input type="radio" name="question7" id="HortonPlains" value="HortonPlains">
+					<label for="HortonPlains">a) HortonPlains </label></p>
+					<p><input type="radio" name="question7" id="Yala" value="Yala">
+					<label for="Yala">b) Yala </label></p>
+					<p><input type="radio" name="question7" id="Hikkaduwa" value="Hikkaduwa">
+					<label for="Hikkaduwa">c) Hikkaduwa</label></p>
+					<p><input type="radio" name="question7" id="Wilpattu" value="Wilpattu">
+					<label for="Wilpattu">d) Wilpattu </label></p>
+				</div><br>
+				
+				<div>
+				    <p>8.Where is the world's largest gathering of wild asian elephants?</p>
+					<p><input type="radio" name="question8" id="MaduRoad" value="MaduRoad">
+					<label for="MaduRoad">a) Madu Road </label></p>
+					<p><input type="radio" name="question8" id="Bundala" value="Bundala">
+					<label for="Bundala">b) Bundala </label></p>
+					<p><input type="radio" name="question8" id="Kumana" value="Kumana">
+					<label for="Kumana">c) Kumana </label></p>
+					<p><input type="radio" name="question8" id="Minneriya" value="Minneriya">
+					<label for="Minneriya">d) Minneriya </label></p>
+				</div><br>
+				
+				<div>
+				    <p>9.The beach that was named as the world's best beach for the year 2004 by the Discovery Channel is,</p>
+					<p><input type="radio" name="question9" id="Arugambay" value="Arugambay">
+					<label for="Arugambay">a) Arugambay </label></p>
+					<p><input type="radio" name="question9" id="Bentota" value="Bentota">
+					<label for="Bentota">b) Bentota </label></p>
+					<p><input type="radio" name="question9" id="Unawatuna" value="Unawatuna">
+					<label for="Unawatuna">c) Unawatuna </label></p>
+					<p><input type="radio" name="question9" id="Uppaveli" value="Uppaveli">
+					<label for="Uppaveli">d) Uppaveli </label></p>
+				</div><br>
+				
+				<div>
+				    <p>10.What is the world heritage site in Sri Lanka that is considered by many as the eigth wonder of the world?</p>
+					<p><input type="radio" name="question10" id="Sigiriya" value="Sigiriya">
+					<label for="Sigiriya">a) Sigiriya </label></p>
+					<p><input type="radio" name="question10" id="Anuradhapura" value="Anuradhapura">
+					<label for="Anuradhapura">b) Anuradhapura </label></p>
+					<p><input type="radio" name="question10" id="DambullaCaveTemple" value="DambullaCaveTemple">
+					<label for="DambullaCaveTemple">c) DambullaCaveTemple </label></p>
+					<p><input type="radio" name="question10" id="TempleOfTheTooth" value="TempleOfTheTooth">
+					<label for="TempleOfTheTooth">d) TempleOfTheTooth </label></p>
+				</div><br>
+				
+				<button id="submit" onclick="check(); stopfunction()">Submit</button>
+				
+				
+				
+			</div>	
+			</form>
+			<br><br>
+		
+			<footer>
+				<div class="content">
+				  <section class="linkNav">
+					<a href="home.html">Home</a><br>
+					<a href="Gallery.html">Gallery</a><br>
+					<a href="Destiantion.html">Destination</a><br>
+					<a href="shop.html">Shop</a><br>
+					<a href="sitemap.html">Site Map</a><br>
+					<a href="Quiz.html">Quiz</a><br>
+					<a href="About Us.html">About Us</a><br>
+					<a href="query.html">Query</a>
+				  </section>
+			
+				  <section class="logoClass">
+					<div class="logo">
+					  <a href="Presentation Page.html"><img src="photos\logo orginal.png" width="250px" height="250px"></a><br>
+					</div>
+					<div class="socialIcon">
+					  <a style="padding-left: 30px;" href="https://www.youtube.com/"><img src="photos\icons8-youtube-500.png" width="35px"
+						  height="35px" alt="youtube"></a>
+					  <a style="padding-left: 30px;" href="https://www.facebook.com/"><img src="photos\fblogo.png" width="35px"
+						  height="35px" alt="youtube"></a>
+					  <a style="padding-left: 30px;" href="https://www.instagram.com/"><img src="photos\icons8-instagram-500.png"
+						  width="35px" height="35px" alt="youtube"></a>
+			
+					</div>
+				  </section>
+			
+				  <section class="subscribe">
+					<p class="stay">STAY UPDATED</p>
+			
+			
+					<form action="">
+					  <input type="text" placeholder="Enter your name" id="text" style="font-size: 20px; ">
+					  <button class="btnSubs" onclick="display()">subscribe</button>
+					</form>
+				  </section>
+			
+				</div>
+				<p class="copyright">@2021 Copyright : Discover Ceylon</p>
+			  </footer>
+			  <a style="text-decoration: none; color: black; font-size: 20px;" href="Page editor/pageEditor(sesharah).html">Page Editor : Sesharah </a>
+			  
+			  <a class="gotopbtn" href="#"> <i >&uarr;</i> </a>
+			
+
+					
+		    
+		    
+		    
+		<script>
+		
+		    var myVar;
+
+                function start() {
+                myVar = setTimeout(function(){ alert("Times up!Submit Answers") }, 3000);
+                }
+
+                function stopfunction() {
+                clearTimeout(myVar);
+                }
+			
+			
+			
+		    function check(){
+			    var c=0;
+				var q1=document.quizForm.question1.value;
+				var q2=document.quizForm.question2.value;
+				var q3=document.quizForm.question3.value;
+				var q4=document.quizForm.question4.value;
+				var q5=document.quizForm.question5.value;
+				var q6=document.quizForm.question6.value;
+				var q7=document.quizForm.question7.value;
+				var q8=document.quizForm.question8.value;
+				var q9=document.quizForm.question9.value;
+				var q10=document.quizForm.question10.value;
+				
+				if (q1=="Colombo"){c++}
+				if (q2=="TheFortressInTheSky"){c++}
+				if (q3=="Pearl"){c++}
+				if (q4=="MahaweliRiver"){c++}
+				if (q5=="BambarakandaFalls"){c++}
+				if (q6=="9"){c++}
+				if (q7=="Yala"){c++}
+				if (q8=="Minneriya"){c++}
+				if (q9=="Unawatuna"){c++}
+				if (q10=="Sigiriya"){c++}
+				    document.write(c);	    
+			}
+				
+			function myFunction() {
+			  var x = document.getElementById("navId");
+			  if (x.className === "nav") {
+				x.className += " responsive";
+			  } else {
+				x.className = "nav";
+			  }
+			}
+			function display() {
+  				alert("You have subscribe us , Thank you!!!")
+			}
+		
+		</script>
+		
+		</body>
+	</html>
